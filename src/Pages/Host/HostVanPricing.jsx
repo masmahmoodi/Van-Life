@@ -1,5 +1,5 @@
 import React from "react"
-import { useOutletContext } from "react-router-dom"
+import { useNavigate, useOutletContext } from "react-router-dom"
 export default function HostVanPricing({id}){
     const data = useOutletContext()
     console.log(data)
@@ -7,3 +7,8 @@ export default function HostVanPricing({id}){
         <h1>{data.price}</h1>
     )
 }
+
+
+
+
+
